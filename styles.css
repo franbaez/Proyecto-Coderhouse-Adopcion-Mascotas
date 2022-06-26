@@ -151,8 +151,13 @@ header{
     border-color: rgb(0, 0, 0);
     border-width: 5px;
     box-shadow: rgb(206, 209, 248) 5px 10px;
+    transition: 1000ms;
 }
-
+.mascotas img:hover{
+    transform: scale(1.15);
+    box-shadow: rgb(0, 0, 0) 5px 10px;
+    border-color: rgb(206, 209, 248);
+}
 
 /* Fin estilos index.html */
 
@@ -174,9 +179,13 @@ header{
     border-color: rgb(0, 0, 0);
     border-width: 5px;
     box-shadow: rgb(9, 107, 199) 5px 10px;
-    
+    transition: 1000ms;
 }
-
+.perros img:hover{
+    transform: scale(1.15);
+    box-shadow: rgb(0, 0, 0) 5px 10px;
+    border-color: rgb(206, 209, 248);
+}
 
 /* Fin estilos perros.html */
 
@@ -197,9 +206,14 @@ header{
     border-style: solid;
     border-color: rgb(0, 0, 0);
     border-width: 5px;
-    box-shadow: rgb(9, 107, 199) 5px 10px;
+    box-shadow: rgb(206, 209, 248) 5px 10px;
+    transition: 1000ms;
 }
-
+.gatos img:hover{
+    transform: scale(1.15);
+    box-shadow: rgb(0, 0, 0) 5px 10px;
+    border-color: rgb(206, 209, 248);
+}
 /* fin estilos gatos.html */
 
 /*  inicio estilos adoptados.html */
@@ -236,9 +250,14 @@ header{
     border-style: solid;
     border-color: rgb(0, 0, 0);
     border-width: 5px;
-    box-shadow: rgb(9, 107, 199) 5px 10px;
+    box-shadow: rgb(206, 209, 248) 5px 10px;
+    transition: 1000ms;
 }
-
+.adoptados img:hover{
+    transform: scale(1.15);
+    box-shadow: rgb(0, 0, 0) 5px 10px;
+    border-color: rgb(206, 209, 248);
+}
 /* Mobile */
 @media only screen and (max-width: 480px){
     .navbar ul li{
