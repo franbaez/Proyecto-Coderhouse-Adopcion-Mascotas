@@ -2,57 +2,17 @@
 body{
     background-image: radial-gradient(circle, #1285eb, #2563c1, #264498, #202670, #14094a);
 }
-
-header{
-    background-color: rgb(86, 36, 119);
+nav{
     width: 100%;
-    height: 20%;
-    position: fixed;
-    top: 0;
-    z-index: 1;
-    
-}
-.navbar{
-    display: flex;
-    justify-content: stretch;
-    flex-wrap: wrap;
-    align-items: center;
-    align-content: center
-}
-    
-.navbar img{
-     width:10%;
-     margin-left: 5%;
 }
 
-.navbar ul{
-    padding: 10px;
-    
+.bienvenida{
+    margin-top: 25%;
 }
-
-.navbar ul li{
-    background-color: rgba(202, 135, 135, 0.767);
-    display: inline-block;   
-    list-style: none;
-    font-weight: bold;
-    margin-left: 80px;
-    font-size: 25px;
-    font-family: 'Crimson Pro', serif;   
-    padding: 15px;
-    border-style: groove;
-    border-color: black;
-    border-width: 3px;
-    height: 25px;
-    width: 100px;
+.container h1{
     text-align: center;
+    margin-top: 20%;
 }
-
-.navbar a{
-    text-decoration: none;
-    color: black;
-    
-}
-
 .footer{
     display: flex;
     justify-content: center;
@@ -90,63 +50,41 @@ header{
 
 /* Estilos index.html */
 
-.container{
-    display: grid;
-    grid-template-areas: "header header"
-                         "section section"
-                         "section section"
-                         "footer footer";
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 0px;
-    grid-auto-flow: column;
 
-}
-.introduccion{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-    gap: 10px 0px;
-    grid-auto-flow: row;
+
+#bienvenida img{
     width: 100%;
-    height: 30%;
-    margin-top: 20%;
     margin-left: 0%;
-}
-.introduccion img{
-    width: 75%;
-    margin-left: 12%;
     border-style: groove;
     border-color: rgb(0, 0, 0);
     border-width: 5px;
 }
 
-.introduccion p{
+#bienvenida p{
+    font-weight: bolder;
+    font-family: 'Crimson Pro', serif;
+    text-align: start;
+}
+
+#ejemplos p{
     font-size: 30px;
     font-weight: bolder;
     font-family: 'Crimson Pro', serif;
-    margin-right: 20%
-}
-
-.ejemplos p{
-    font-size: 25px;
-    font-weight: bolder;
-    font-family: 'Crimson Pro', serif;
-    margin-top: 0;
+    margin-top: 5%;
     text-align: center;
 }
 .mascotas{
     display: flex;
     flex-wrap: wrap;
-    
+    margin-top: 5%;
+    margin-left: 10%;
 }
 .mascotas img{
-    width: 25%;
-    height: 15%;
+    width: 100%;
+    height: 100%;
     display: inline-block;
-    margin-left: 5%;
-    margin-bottom: 5%;
-    margin-top: 5%;
+    margin-left: 20%;
+    margin-bottom: 0%;
     border-style: groove;
     border-color: rgb(0, 0, 0);
     border-width: 5px;
@@ -218,18 +156,16 @@ header{
 
 /*  inicio estilos adoptados.html */
 
-.adoptados{
+#adoptados{
     margin-top: 11%;
     display: flex;
     flex-wrap: wrap;
     
 }
-.texto2{
-   font-size: 25px;
+#adoptados p{
+    font-size: 25px;
     font-weight: bolder;
     font-family: 'Crimson Pro', serif;
-    margin-left: 35%;
-    margin-top: 5%;
     text-align: center;
 }
 .texto1{

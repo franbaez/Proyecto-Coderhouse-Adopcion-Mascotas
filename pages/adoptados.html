@@ -5,48 +5,90 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio</title>
+    <!-- Conexion de Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="icon" href="assets/icono.ico">
     <link rel="stylesheet" href="../styles.css">
 </head>
 <body>
   <!--Comienzo del Header de la página-->
-<header>
-   <div class="navbar">
-        
-    <!--Imagen o Icono-->
-        <img src="../assets/icono-header.svg" alt="icono de la pagina">
-    
-        
-   <!--Declaro la Estructura de la Barra de Navegación con sus links correspondientes-->
-        
-        <nav>
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="/pages/perros.html">Perros</a></li>
-                <li><a href="/pages/gatos.html">Gatos</a></li>
-                <li><a href="/pages/adoptados.html">Adoptados</a></li>
-                <li><a href="/pages/contacto.html">Contacto</a></li>
+  <header>
+
+    <!--Declaro la Estructura de la Barra de Navegación con sus links correspondientes-->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../../index.html">
+                <img src="/assets/icono-header.svg" alt="" width="200" height="150" class="d-inline-block align-text-center">
+                Strays!
+            </a>
+          
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item me-5 ms-5">
+                <a class="nav-link" href="../../index.html">Inicio</a>
+              </li>
+              <li class="nav-item me-5 ms-5">
+                <a class="nav-link" href="/pages/perros.html">Perros</a>
+              </li>
+              <li class="nav-item me-5 ms-5">
+                <a class="nav-link" href="/pages/gatos.html">Gatos</a>
+              </li>
+              <li class="nav-item me-5 ms-5">
+                <a class="nav-link active" aria-current="page" href="/pages/adoptados.html">Adoptados</a>
+              </li>
+              <li class="nav-item me-5 ms-5">
+                <a class="nav-link" href="/pages/contacto.html">Contacto</a>
+              </li>
             </ul>
-        </nav>
-        
-    <!--Fin Barra de Navegacion-->
-    </div>
+          </div>
+        </div>
+      </nav>
+<!--Fin Barra de Navegacion-->
+</div>
 </header>
 <!--Fin del Header-->
-<div>
-    <section class="adoptados">   
-        <p class="texto1">Sabemos lo importante y dificil que es tomar la decisión de adoptar una mascota, y por eso queremos mostrar y felicitar a aquellos que se animan a adoptar para llenarlos de amor y mejorar su calidad de vida.</p>
+<div class="row justify-content-center" id="adoptados">
+  
+  <div class="col-11 col-sm-9 col-md-8 col-lg-6 col-xl-7 mt-5">
+      <p class="fst-italic fs-3 p-3">
+        Sabemos lo importante y dificil que es tomar la decisión de adoptar una mascota, y por eso queremos mostrar y felicitar a aquellos que se animan a adoptar para llenarlos de amor y mejorar su calidad de vida.      </p>
+  </div>    
+  <div class="container">
+<section class="ejemplos">
+    
 
-        <img src="/assets/adoptados/adoptado1.jpg" alt="">
-        <img src="/assets/adoptados/adoptado4.jpg" alt="">
-        <img src="/assets/adoptados/adoptado3.jpg" alt="">
-        <img src="/assets/adoptados/adoptado5.jpg" alt="">
-        <img src="/assets/adoptados/adoptado2.jpg" alt="">
-        <img src="/assets/adoptados/adoptado6.jpg" alt="">
-
-        <p class="texto2">Muchas Gracias por cambiarles la vida!</p>
-    </section>
+    
+    <!--Aca habrá como una "galeria"  de imagenes con perros y gatos que estan disponibles para adopción-->
+  <div class="row">
+    <div class="mascotas">
+       <div class="col-6 mb-5 me-5 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+        <img src="/assets/adoptados/adoptado1.jpg" alt="gato">
+      </div>
+      <div class="col-6 mb-5 me-5 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+        <img src="/assets/adoptados/adoptado4.jpg"  alt="perro">
+      </div>
+      <div class="col-6 mb-5 me-5 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+        <img src="/assets/adoptados/adoptado3.jpg" alt="gato">
+      </div>
+      <div class="col-6 mb-5 me-5 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+        <img src="/assets/adoptados/adoptado5.jpg" alt="perro">
+      </div>
+      <div class="col-6 mb-5 me-5 col-sm-12 col-md-3 col-lg-3 col-xl-3">
+        <img src="/assets/adoptados/adoptado2.jpg" alt="gato">
+      </div>
+      <div class="col-6 mb-5 me-5 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+        <img src="/assets/adoptados/adoptado6.jpg" alt="perro">
+      </div>
+    </div>
+    
+  </div>
+</section>
 </div>
+
 <!--Inicio de footer con las redes sociales-->
 
 <footer class="footer">
@@ -59,5 +101,8 @@
 </footer>
 
 <!--Fin del footer-->
+<!-- Script de Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<!-- ------------------- -->
 </body>
 </html>
