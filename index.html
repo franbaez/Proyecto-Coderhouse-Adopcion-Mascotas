@@ -13,8 +13,6 @@
     <!-- Conexion del CSS -->
     <link rel="stylesheet" href="styles.css">
     
-    <!-- Animate.css -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
     <!-- Fuente de Google  -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -27,84 +25,88 @@
 <header>
 
     <!--Declaro la Estructura de la Barra de Navegación con sus links correspondientes-->
-
+  <div class="container-fluid">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">
-                <img src="assets/icono-header.svg" alt="" width="200" height="150" class="d-inline-block align-text-center">
-                Strays!
-            </a>
-          
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav nav justify-content-center">
-              <li class="nav-item me-5 ms-5">
-                <a class="nav-link active" aria-current="page" href="/index.html">Inicio</a>
-              </li>
-              <li class="nav-item me-5 ms-5">
-                <a class="nav-link" href="/pages/perros.html">Perros</a>
-              </li>
-              <li class="nav-item me-5 ms-5">
-                <a class="nav-link" href="/pages/gatos.html">Gatos</a>
-              </li>
-              <li class="nav-item me-5 ms-5">
-                <a class="nav-link" href="/pages/adoptados.html">Adoptados</a>
-              </li>
-              <li class="nav-item me-5 ms-5">
-                <a class="nav-link" href="/pages/contacto.html">Contacto</a>
-              </li>
-            </ul>
-          </div>
+      <div class="container">
+          <a class="navbar-brand" href="index.html">
+              <img src="assets/icono-header.svg" alt="" width="200" height="150" class="d-inline-block align-text-center">
+              Strays!
+          </a>
+        
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav nav justify-content-center container">
+            <li class="nav-item me-5 ms-5 me-lg-0">
+              <a class="nav-link active" aria-current="page" href="/index.html">Inicio</a>
+            </li>
+            <li class="nav-item me-5 ms-5 me-lg-0">
+              <a class="nav-link" href="/pages/perros.html">Perros</a>
+            </li>
+            <li class="nav-item me-5 ms-5 me-lg-0">
+              <a class="nav-link" href="/pages/gatos.html">Gatos</a>
+            </li>
+            <li class="nav-item me-5 ms-5 me-lg-0">
+              <a class="nav-link" href="/pages/adoptados.html">Adoptados</a>
+            </li>
+            <li class="nav-item me-5 ms-5 me-lg-0">
+              <a class="nav-link" href="/pages/contacto.html">Contacto</a>
+            </li>
+          </ul>
         </div>
-      </nav>
+      </div>
+    </nav>
 <!--Fin Barra de Navegacion-->
-</div>
+  </div>
+    
+
 </header>
 <!--Fin del Header-->
 
 <!--Inicio de la primera seccion de la pagina-->
+<div class="container">
 <div class="row justify-content-center id" id="bienvenida">
   
   <h1 class="text-center mb-5 mt-5 text-white">
     Bienvenido a Strays!
   </h1>  
   
-  <div class="col-12 col-sm-9 col-md-8 col-lg-6 col-xl-5">
+  <div class="col-12 col-sm-9 col-md-8 col-lg-4 col-xl-6">
   
     <!--Imagen-->
     <img src="assets/index/imagen-principal.webp" alt="imagen principal">
   
   </div>
   
-  <div class="col-12 col-sm-9 col-md-8 col-lg-6 col-xl-3">
+  <div class="col-12 col-sm-9 col-md-8 col-lg-6 col-xl-6">
       <!-- Parrafo descriptivo -->
-    <p class=" fst-italic fs-3 ms-1">
+    <p class=" fst-italic fs-2">
           Hola! Somos Strays, queremos ser la plataforma que permita conectar a aquellas mascotas que necesitan un hogar, con aquellas familias que desean adoptar una mascota y darle amor, encontraras perros y gatos de todas las razas y edades, listos y preparados para recibir todo el amor que se merecen y que nunca deberia faltarles en su vida. Animate! Podes hacerlos muy felices :D
         </p>
   </div>
 </div>
-        
+</div> 
 <!--Fin de la Primera Sección-->
 
 <!--Inicio de Segunda Seccion-->
-<div class="row justify-content-center" id="ejemplos">
+<div class="container">
+  <div class="row justify-content-center" id="ejemplos">
   
   <div class="col-11 col-sm-9 col-md-8 col-lg-6 col-xl-7 mt-5">
       <p class="fst-italic fs-3 p-3">
         Aca te presentamos algunos de los gatos y perros que buscan un hogar y una familia para ser felices!!
       </p>
   </div>    
-  <div class="container">
+  <div class="container-fluid">
 <section class="ejemplos">
     
 
     
     <!--Aca habrá como una "galeria"  de imagenes con perros y gatos que estan disponibles para adopción-->
   <div class="row">
-    <div class="mascotas">
-       <div class="col-6 mb-5 me-5 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+    <div class="mascotas ms-5">
+       <div class="col-6 mb-5 me-5 m col-sm-6 col-md-3 col-lg-3 col-xl-3">
         <img src="assets/index/perro1.jpg" alt="perro">
       </div>
       <div class="col-6 mb-5 me-5 col-sm-6 col-md-3 col-lg-3 col-xl-3">
@@ -116,7 +118,7 @@
       <div class="col-6 mb-5 me-5 col-sm-6 col-md-3 col-lg-3 col-xl-3">
         <img src="assets/index/gato2.webp" alt="gato">
       </div>
-      <div class="col-6 mb-5 me-5 col-sm-12 col-md-3 col-lg-3 col-xl-3">
+      <div class="col-6 mb-5 me-5 col-sm-6 col-md-3 col-lg-3 col-xl-3">
         <img src="assets/index/perro3.webp" alt="perro">
       </div>
       <div class="col-6 mb-5 me-5 col-sm-6 col-md-3 col-lg-3 col-xl-3">
@@ -127,17 +129,23 @@
   </div>
 </section>
 </div>
+</div>
 <!--Fin de Segunda Seccion-->
 
 <!--Inicio de footer con las redes sociales-->
-<footer class="footer">
-    <ul>
-        <li><a href="#">Instagram</a></li>
-        <li><a href="#">Facebook</a></li>
-        <li><a href="#">Whatsapp</a></li>
-        <li><a href="#">Youtube</a></li>
+<div class="container-fluid">
+<footer class=" d-flex  align-items-start bg-dark text-white text-center">
+
+    <ul class="container">
+      <li class="me-0 ms-0  me-sm-1 ms-sm-0 me-md-0 ms-md-0 me-lg-0"><img src="assets/whatsapp.svg" alt="Icono de Whatsapp"><a href="#">Whatsapp</a></li>
+      <li class="me-0 ms-0 me-sm-3 ms-sm-1 me-md-0 ms-md-0 me-lg-0"><img src="assets/instagram.svg" alt="Icono de Instagram"><a href="#">Instagram</a></li>
+      <li class="me-0 ms-0 me-sm-1 ms-sm-0  me-md-0 ms-md-0 me-lg-0"><img src="assets/twitter.svg" alt="Icono de Twitter"><a href="#">Twitter</a></li>
+      <li class="me-0 ms-0  me-sm-1 ms-sm-0 me-md-0 ms-md-0 me-lg-0"><img src="assets/youtube.svg" alt="Icono de Youtube"><a href="#">Youtube</a></li>
+      <li class="me-0 ms-0  me-sm-1 ms-sm-0 me-md-0 ms-md-0 me-lg-0"><img src="assets/facebook.svg" alt="Icono de Facebook"><a href="#">Facebook</a></li>
     </ul>
+  
 </footer>
+</div>
 <!--Fin del footer-->
 
 <!-- Script de Bootstrap -->
