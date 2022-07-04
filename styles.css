@@ -1,10 +1,36 @@
 /* Estilos de todos los html*/
+*{
+
+	margin: 0;
+
+	padding: 0;
+
+	box-sizing: border-box;
+
+}
 body{
+    width: auto;
     background-image: radial-gradient(circle, #1285eb, #2563c1, #264498, #202670, #14094a);
 }
-nav{
-    width: 100%;
+footer{
+    height: 100px;
 }
+footer li{
+    display: flex;
+    display: inline-block;
+    list-style: none;
+}
+
+footer li a{
+    text-decoration: none;
+}
+ footer img{
+    margin-top: 15%;
+    width: 50%;
+ }
+/* Fin estilos de todos los HTML */
+
+/* Estilos index.html */
 
 .bienvenida{
     margin-top: 25%;
@@ -13,48 +39,11 @@ nav{
     text-align: center;
     margin-top: 20%;
 }
-.footer{
-    display: flex;
-    justify-content: center;
-    justify-items: end;
-}
- footer{
-    background-color: rgb(86, 36, 119);
-    width: 100%;
-    height: 100px;
-    display: inline-block; 
-}
-.footer li{
-    background-color: rgba(202, 135, 135, 0.767);
-    display: inline-block;   
-    list-style: none;
-    font-weight: bold;
-    margin-left: 80px;
-    font-size: 25px;
-    font-family: 'Crimson Pro', serif;   
-    padding: 15px;
-    border-style: groove;
-    border-color: black;
-    border-width: 3px;
-    height: 25px;
-    width: 100px;
-    text-align: center;
-}
-.footer a{
-    text-decoration: none;
-    color: black;
-
-}
-
-/* Fin estilos de todos los HTML */
-
-/* Estilos index.html */
-
 
 
 #bienvenida img{
-    width: 100%;
-    margin-left: 0%;
+    width: 90%;
+   
     border-style: groove;
     border-color: rgb(0, 0, 0);
     border-width: 5px;
@@ -63,7 +52,7 @@ nav{
 #bienvenida p{
     font-weight: bolder;
     font-family: 'Crimson Pro', serif;
-    text-align: start;
+   
 }
 
 #ejemplos p{
@@ -156,26 +145,13 @@ nav{
 
 /*  inicio estilos adoptados.html */
 
-#adoptados{
-    margin-top: 11%;
-    display: flex;
-    flex-wrap: wrap;
-    
-}
 #adoptados p{
     font-size: 25px;
     font-weight: bolder;
     font-family: 'Crimson Pro', serif;
     text-align: center;
 }
-.texto1{
-    font-size: 25px;
-    font-weight: bolder;
-    font-family: 'Crimson Pro', serif;
-    margin-top: 5%;
-    margin-left: 5%;
-    text-align: center;
-}
+
 
 .adoptados img{
     width: 25%;
@@ -237,84 +213,39 @@ nav{
     
     }
 }
-/* Tablet */
-@media only screen and (min-width: 481px) and (max-width: 960px) {
 
-.navbar ul li{
-    display: inline;
-    font-size: 15px;
-    width: 50px;
-    margin-left: 5px;
-    height: 20px;
-}
-
-.introduccion p{
-    font-size: 15px;
-    margin-top: 0;
-    margin-right: 10%;
-}
-
-.ejemplos{
-    margin-top: 0%;
-}
-
-.adoptados p{
-    margin-top: 10%;
-}
-
-.texto2{
-    font-weight: bolder;
-    font-family: 'Crimson Pro', serif;
-    margin-left: 20%;
-    margin-top: 5%;
-    text-align: center;
-}
-.texto1{
-    font-weight: bolder;
-    font-family: 'Crimson Pro', serif;
-    margin-top: 20%;
-    margin-left: 5%;
-    text-align: center;
-}
-
-.footer ul li{
-    display: inline;
-    font-size: 10px;
-    margin-left: 0px;
-    width: 40px;
-
-}
-}
-/* Desktop */
-@media only screen and (min-width: 961px) and (max-width: 1024px){
+@media (min-width: 768px) {
+    footer li{
+        margin-top: 0%;
+        margin-left: 0%;
+        display: flex;
+        display: inline-block;
+        list-style: none;
+    }
     
-.navbar ul li{
-    display: inline;
-    font-size: 15px;
-    margin-left: 50px;
+     footer img{
+        margin-top: 15%;
+        width: 30%;
+     }
+
 }
 
-.introduccion p{
-    margin-top: 0;
+@media (max-width: 768px){
+footer{
+    height: 150px;
+}
+footer li{
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    display: inline-flex;
+}
+footer img{
+    width: 20%;
 }
 
-.adoptados p{
-    margin-top: 10%;
-    text-align: center;
-}
-.texto2{
-    font-weight: bolder;
-    font-family: 'Crimson Pro', serif;
-    margin-left: 35%;
-    margin-top: 5%;
-}
-.texto1{
-    font-weight: bolder;
-    font-family: 'Crimson Pro', serif;
-    margin-top: 20%;
-    margin-left: 5%;
+footer li a{
+    font-size: medium;
 }
 }
-
-
 

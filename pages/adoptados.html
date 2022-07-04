@@ -15,9 +15,10 @@
   <header>
 
     <!--Declaro la Estructura de la Barra de Navegación con sus links correspondientes-->
+    <div class="container-fluid">
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
+        <div class="container">
             <a class="navbar-brand" href="../../index.html">
                 <img src="/assets/icono-header.svg" alt="" width="200" height="150" class="d-inline-block align-text-center">
                 Strays!
@@ -27,7 +28,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav justify-content-center container">
               <li class="nav-item me-5 ms-5">
                 <a class="nav-link" href="../../index.html">Inicio</a>
               </li>
@@ -51,55 +52,68 @@
 </div>
 </header>
 <!--Fin del Header-->
-<div class="row justify-content-center" id="adoptados">
+<div class="container">
+  <div class="row justify-content-center" id="adoptados">
   
-  <div class="col-11 col-sm-9 col-md-8 col-lg-6 col-xl-7 mt-5">
+    <div class="col-11 col-sm-9 col-md-8 col-lg-6 col-xl-7 mt-1">
       <p class="fst-italic fs-3 p-3">
-        Sabemos lo importante y dificil que es tomar la decisión de adoptar una mascota, y por eso queremos mostrar y felicitar a aquellos que se animan a adoptar para llenarlos de amor y mejorar su calidad de vida.      </p>
-  </div>    
-  <div class="container">
-<section class="ejemplos">
-    
+        Sabemos lo importante y dificil que es tomar la decisión de adoptar una mascota, y por eso queremos mostrar y felicitar a aquellos que se animan a adoptar para llenarlos de amor y mejorar su calidad de vida.
+      </p>
+    </div>    
 
     
-    <!--Aca habrá como una "galeria"  de imagenes con perros y gatos que estan disponibles para adopción-->
-  <div class="row">
-    <div class="mascotas">
-       <div class="col-6 mb-5 me-5 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+  
+   <!--Aca habrá como una "galeria"  de imagenes con perros y gatos que estan disponibles para adopción-->
+  <div class="container">
+
+   <section class="ejemplos">
+   <div class="row">
+    <div class="mascotas ms-5">
+      <div class="col-6 mb-5 me-5 col-sm-6 col-md-3 col-lg-3 col-xl-3">
         <img src="/assets/adoptados/adoptado1.jpg" alt="gato">
       </div>
+      
       <div class="col-6 mb-5 me-5 col-sm-6 col-md-3 col-lg-3 col-xl-3">
         <img src="/assets/adoptados/adoptado4.jpg"  alt="perro">
       </div>
+     
       <div class="col-6 mb-5 me-5 col-sm-6 col-md-3 col-lg-3 col-xl-3">
         <img src="/assets/adoptados/adoptado3.jpg" alt="gato">
       </div>
+     
       <div class="col-6 mb-5 me-5 col-sm-6 col-md-3 col-lg-3 col-xl-3">
         <img src="/assets/adoptados/adoptado5.jpg" alt="perro">
       </div>
-      <div class="col-6 mb-5 me-5 col-sm-12 col-md-3 col-lg-3 col-xl-3">
+      
+      <div class="col-6 mb-5 me-5 col-sm-6 col-md-3 col-lg-3 col-xl-3">
         <img src="/assets/adoptados/adoptado2.jpg" alt="gato">
       </div>
+      
       <div class="col-6 mb-5 me-5 col-sm-6 col-md-3 col-lg-3 col-xl-3">
         <img src="/assets/adoptados/adoptado6.jpg" alt="perro">
       </div>
     </div>
     
-  </div>
-</section>
+   </div>
+  </section>
+</div>
 </div>
 
 <!--Inicio de footer con las redes sociales-->
 
-<footer class="footer">
-    <ul>
-        <li><a href="#">Instagram</a></li>
-        <li><a href="#">Facebook</a></li>
-        <li><a href="#">Whatsapp</a></li>
-        <li><a href="#">Youtube</a></li>
-    </ul>
-</footer>
-
+<div class="container-fluid">
+  <footer class=" d-flex  align-items-center bg-dark text-white text-center">
+  
+      <ul class="container">
+        <li class="me-5 ms-5"><img src="/assets/whatsapp.svg" alt="Icono de Whatsapp"><a href="#">Whatsapp</a></li>
+        <li class="me-5 ms-5"><img src="/assets/instagram.svg" alt="Icono de Instagram"><a href="#">Instagram</a></li>
+        <li class="me-5 ms-5"><img src="/assets/twitter.svg" alt="Icono de Twitter"><a href="#">Twitter</a></li>
+        <li class="me-5 ms-5"><img src="/assets/youtube.svg" alt="Icono de Youtube"><a href="#">Youtube</a></li>
+        <li class="me-5 ms-5"><img src="/assets/facebook.svg" alt="Icono de Facebook"><a href="#">Facebook</a></li>
+      </ul>
+    
+  </footer>
+  </div>
 <!--Fin del footer-->
 <!-- Script de Bootstrap -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
