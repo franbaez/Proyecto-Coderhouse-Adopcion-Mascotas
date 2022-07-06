@@ -1,0 +1,253 @@
+/* Estilos de todos los html*/
+*{
+
+	margin: 0;
+
+	padding: 0;
+
+	box-sizing: border-box;
+
+}
+body{
+    width: auto;
+    background-image: radial-gradient(circle, #1285eb, #2563c1, #264498, #202670, #14094a);
+}
+footer{
+    height: 100px;
+}
+footer li{
+    display: flex;
+    display: inline-block;
+    list-style: none;
+}
+
+footer li a{
+    text-decoration: none;
+}
+ footer img{
+    margin-top: 15%;
+    width: 50%;
+ }
+/* Fin estilos de todos los HTML */
+
+/* Estilos index.html */
+
+.bienvenida{
+    .container h1{
+        text-align: center;
+        margin-top: 20%;
+    }
+    img{
+        width: 90%;
+       
+        border-style: groove;
+        border-color: rgb(0, 0, 0);
+        border-width: 5px;
+    }
+    p{
+        font-weight: bolder;
+        font-family: 'Crimson Pro', serif;
+       
+    }
+    margin-top: 25%;
+}
+
+#ejemplos{
+     p{
+        font-size: 30px;
+        font-weight: bolder;
+        font-family: 'Crimson Pro', serif;
+        margin-top: 5%;
+        text-align: center;
+    }
+    .mascotas{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 5%;
+        margin-left: 10%;
+        img{
+            width: 100%;
+            height: 100%;
+            display: inline-block;
+            margin-left: 20%;
+            margin-bottom: 0%;
+            border-style: groove;
+            border-color: rgb(0, 0, 0);
+            border-width: 5px;
+            box-shadow: rgb(206, 209, 248) 5px 10px;
+            transition: 1000ms;
+            &:hover{
+                transform: scale(1.15);
+                box-shadow: rgb(0, 0, 0) 5px 10px;
+                border-color: rgb(206, 209, 248);
+            }
+        }
+    }
+}
+
+/* Fin estilos index.html */
+
+/* Inicio estilos perros.html */
+
+.perros{
+   margin-top: 11%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.perros img{
+    width: 25%;
+    height: 15%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    border-style: groove;
+    border-color: rgb(0, 0, 0);
+    border-width: 5px;
+    box-shadow: rgb(9, 107, 199) 5px 10px;
+    transition: 1000ms;
+}
+.perros img:hover{
+    transform: scale(1.15);
+    box-shadow: rgb(0, 0, 0) 5px 10px;
+    border-color: rgb(206, 209, 248);
+}
+
+/* Fin estilos perros.html */
+
+/* Inicio estilos gatos.html */
+
+.gatos{
+    margin-top: 11%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gatos img{
+    width: 25%;
+    height: 15%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-width: 5px;
+    box-shadow: rgb(206, 209, 248) 5px 10px;
+    transition: 1000ms;
+}
+.gatos img:hover{
+    transform: scale(1.15);
+    box-shadow: rgb(0, 0, 0) 5px 10px;
+    border-color: rgb(206, 209, 248);
+}
+/* fin estilos gatos.html */
+
+/*  inicio estilos adoptados.html */
+#adoptados{
+    p{
+        font-size: 25px;
+        font-weight: bolder;
+        font-family: 'Crimson Pro', serif;
+        text-align: center;
+    }
+    img{
+        width: 100%;
+        height: 15%;
+        margin-left: 5%;
+        margin-bottom: 5%;
+        margin-top: 5%;
+        border-style: solid;
+        border-color: rgb(0, 0, 0);
+        border-width: 5px;
+        box-shadow: rgb(206, 209, 248) 5px 10px;
+        transition: 1000ms;
+        &:hover{
+            
+                transform: scale(1.15);
+                box-shadow: rgb(0, 0, 0) 5px 10px;
+                border-color: rgb(206, 209, 248);
+            }
+        }
+    }
+
+ 
+
+/* Mobile */
+@media only screen and (max-width: 480px){
+    .navbar ul li{
+        display: inline;
+        font-size: 10px;
+        margin-left: 0px;
+        width: 40px;
+    }
+
+    .introduccion{
+        margin-top: 30%;
+    }
+
+    .introduccion p{
+        font-size: 11px;
+        margin-right: 20%;
+        margin-top: 0%;
+    }
+    .texto2{
+        font-size: 15px;
+        font-weight: bolder;
+        font-family: 'Crimson Pro', serif;
+        margin-left: 20%;
+        margin-top: 5%;
+        text-align: center;
+    }
+    .texto1{
+        font-size: 15px;
+        font-weight: bolder;
+        font-family: 'Crimson Pro', serif;
+        margin-top: 20%;
+        margin-left: 5%;
+        text-align: center;
+    }
+
+    .footer ul li{
+        display: inline;
+        font-size: 10px;
+        margin-left: 0px;
+        width: 40px;
+    
+    }
+}
+
+@media (min-width: 768px) {
+    footer li{
+        margin-top: 0%;
+        margin-left: 0%;
+        display: flex;
+        display: inline-block;
+        list-style: none;
+    }
+    
+     footer img{
+        margin-top: 15%;
+        width: 30%;
+     }
+
+}
+
+@media (max-width: 768px){
+footer{
+    height: 150px;
+}
+footer li{
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    display: inline-flex;
+}
+footer img{
+    width: 20%;
+}
+
+footer li a{
+    font-size: medium;
+}
+}
+
