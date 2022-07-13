@@ -1,0 +1,50 @@
+.bienvenida{
+    display: flex;
+    margin-top: 25%;
+}
+.container h1{
+    text-align: center;
+    margin-top: 20%;
+}
+
+
+#bienvenida img{
+    margin-top: 6%;
+    width: 100%;
+    border-style: groove;
+    border-color: rgb(0, 0, 0);
+    border-width: 6px;
+}
+
+#bienvenida p{
+    font-weight: bolder;
+    font-family: 'Crimson Pro', serif;
+   
+}
+
+#ejemplos p{
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: 'Crimson Pro', serif;
+    margin-top: 5%;
+    text-align: center;
+}
+.mascotas{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+
+.mascotas div .card{
+    box-shadow: rgb(0, 0, 0) 20px 20px;
+    transition: 1000ms;
+    margin-bottom: 15%;
+}
+
+.mascotas .card:hover{
+    transform: scale(1.15);
+    box-shadow: rgb(253, 253, 253) 5px 10px;
+    
+}

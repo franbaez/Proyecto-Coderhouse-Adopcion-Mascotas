@@ -66,13 +66,13 @@
 
 <!--Inicio de la primera seccion de la pagina-->
 <div class="container">
-<div class="row justify-content-center id" id="bienvenida">
+<div class="row justify-content-center" id="bienvenida">
   
-  <h1 class="text-center mb-5 mt-5 text-white">
+  <h1 class="text-center mb-5 mt-5">
     Bienvenido a Strays!
   </h1>  
   
-  <div class="col-12 col-sm-9 col-md-8 col-lg-4 col-xl-6">
+  <div class="col-12 col-sm-9 col-md-8 col-lg-5 col-xl-6">
   
     <!--Imagen-->
     <img src="assets/index/imagen-principal.webp" alt="imagen principal">
@@ -81,8 +81,8 @@
   
   <div class="col-12 col-sm-9 col-md-8 col-lg-6 col-xl-6">
       <!-- Parrafo descriptivo -->
-    <p class=" fst-italic fs-2">
-          Hola! Somos Strays, queremos ser la plataforma que permita conectar a aquellas mascotas que necesitan un hogar, con aquellas familias que desean adoptar una mascota y darle amor, encontraras perros y gatos de todas las razas y edades, listos y preparados para recibir todo el amor que se merecen y que nunca deberia faltarles en su vida. Animate! Podes hacerlos muy felices :D
+    <p class=" col-md-12 fs-6 mt-4 col-lg-11 fs-2 col-xl-12 fst-italic fs-2">
+          Hola! Somos Strays, queremos ser la plataforma que permita conectar mascotas que necesiten un hogar, con aquellas familias que desean adoptar y darles amor, encontraras perros y gatos de todas las razas y edades, listos y preparados para recibir todo el amor que se merecen y que nunca deberia faltarles en su vida. Animate! Podes hacerlos muy felices :D
         </p>
   </div>
 </div>
@@ -101,29 +101,72 @@
   <div class="container-fluid">
 <section class="ejemplos">
     
-
-    
-    <!--Aca habrá como una "galeria"  de imagenes con perros y gatos que estan disponibles para adopción-->
-  <div class="row">
-    <div class="mascotas ms-5">
-       <div class="col-6 mb-5 me-5 m col-sm-6 col-md-3 col-lg-3 col-xl-3">
-        <img src="assets/index/perro1.jpg" alt="perro">
+  <!--Aca habrá como una "galeria"  de imagenes con perros y gatos que estan disponibles para adopción-->
+  <div class="row  justify-content-center">
+    <div class="container mascotas me-5">
+      <div class="row row-cols-2">
+        <div class="col">
+          <div class="card w-75 border-dark border border-4">
+            <img src="assets/index/perro1.jpg" class="card-img-top" alt="Primer imagen de perro en adopción">
+            <div class="card-body">
+              <h5 class="card-title fw-bolder">Tomy (5 años)</h5>
+              <p class="card-text fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, sit commodi qui libero maiores recusandae.</p>
+              <a href="#" class="btn btn-primary">Adoptame!</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card w-75 border-dark border border-4">
+            <img src="assets/index/gato1.jpg" class="card-img-top" alt="Primera imagen de gato en adopción">
+            <div class="card-body">
+              <h5 class="card-title fw-bolder">Olivia (2 meses)</h5>
+              <p class="card-text fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, sit commodi qui libero maiores recusandae.</p>
+              <a href="#" class="btn btn-primary">Adoptame!</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card w-75 border-dark border border-4">
+            <img src="assets/index/perro2.webp" class="card-img-top" alt="Segunda imagen de perro en adopción">
+            <div class="card-body">
+              <h5 class="card-title fw-bolder">Julian (8 meses)</h5>
+              <p class="card-text fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, sit commodi qui libero maiores recusandae.</p>
+              <a href="#" class="btn btn-primary">Adoptame!</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card w-75 border-dark border border-4">
+            <img src="assets/index/gato2.webp" class="card-img-top" alt="Segunda imagen de gato en adopción">
+            <div class="card-body">
+              <h5 class="card-title fw-bolder">Felipe (1 año)</h5>
+              <p class="card-text fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, sit commodi qui libero maiores recusandae.</p>
+              <a href="#" class="btn btn-primary">Adoptame!</a>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="col-6 mb-5 me-5 col-sm-6 col-md-3 col-lg-3 col-xl-3">
-        <img src="assets/index/gato1.jpg" alt="gato">
+      <div class="col">
+        <div class="card w-75 border-dark border border-4">
+          <img src="assets/index/perro3.webp" class="card-img-top" alt="Tercera imagen de perro en adopción">
+          <div class="card-body">
+            <h5 class="card-title fw-bolder">Nelson (3 años)</h5>
+            <p class="card-text fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, sit commodi qui libero maiores recusandae.</p>
+            <a href="#" class="btn btn-primary">Adoptame!</a>
+          </div>
+        </div>
       </div>
-      <div class="col-6 mb-5 me-5 col-sm-6 col-md-3 col-lg-3 col-xl-3">
-        <img src="assets/index/perro2.webp" alt="perro">
+      <div class="col">
+        <div class="card w-75 border-dark border border-4">
+          <img src="assets/index/gato3.webp" class="card-img-top" alt="Tercera imagen de gato en adopción">
+          <div class="card-body">
+            <h5 class="card-title fw-bolder">Mochi (2 años)</h5>
+            <p class="card-text fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, sit commodi qui libero maiores recusandae.</p>
+            <a href="#" class="btn btn-primary">Adoptame!</a>
+          </div>
+        </div>
       </div>
-      <div class="col-6 mb-5 me-5 col-sm-6 col-md-3 col-lg-3 col-xl-3">
-        <img src="assets/index/gato2.webp" alt="gato">
-      </div>
-      <div class="col-6 mb-5 me-5 col-sm-6 col-md-3 col-lg-3 col-xl-3">
-        <img src="assets/index/perro3.webp" alt="perro">
-      </div>
-      <div class="col-6 mb-5 me-5 col-sm-6 col-md-3 col-lg-3 col-xl-3">
-        <img src="assets/index/gato3.webp" alt="gato">
-      </div>
+      
     </div>
     
   </div>
