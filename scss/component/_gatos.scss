@@ -1,0 +1,23 @@
+.gatos{
+    margin-top: 11%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gatos img{
+    width: 25%;
+    height: 15%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-width: 5px;
+    box-shadow: rgb(206, 209, 248) 5px 10px;
+    transition: 1000ms;
+}
+.gatos img:hover{
+    transform: scale(1.15);
+    box-shadow: rgb(0, 0, 0) 5px 10px;
+    border-color: rgb(206, 209, 248);
+}
