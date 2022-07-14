@@ -1,25 +1,22 @@
-#adoptados p{
-    font-size: 25px;
-    font-weight: bolder;
-    font-family: 'Crimson Pro', serif;
-    text-align: center;
+ 
+
+#adoptados{
+    p{
+        font-size: 25px;
+        font-weight: bolder;
+        font-family: 'Crimson Pro', serif;
+        text-align: center;
+    }
+    
+    .card{
+        box-shadow: rgb(0, 0, 0) 20px 20px;
+        transition: 1000ms;
+        margin-bottom: 15%;
+    
+        &:hover{
+            transform: scale(1.15);
+            box-shadow: rgb(253, 253, 253) 5px 10px;
+        }
+    }
 }
 
-
-.adoptados img{
-    width: 25%;
-    height: 15%;
-    margin-left: 5%;
-    margin-bottom: 5%;
-    margin-top: 5%;
-    border-style: solid;
-    border-color: rgb(0, 0, 0);
-    border-width: 5px;
-    box-shadow: rgb(206, 209, 248) 5px 10px;
-    transition: 1000ms;
-}
-.adoptados img:hover{
-    transform: scale(1.15);
-    box-shadow: rgb(0, 0, 0) 5px 10px;
-    border-color: rgb(206, 209, 248);
-}
