@@ -18,9 +18,7 @@ body {
 #bienvenida img {
   margin-top: 6%;
   width: 100%;
-  border-style: groove;
-  border-color: rgb(0, 0, 0);
-  border-width: 6px;
+  box-shadow: rgb(28, 126, 88) 10px 15px;
 }
 #bienvenida p {
   font-weight: bolder;
@@ -41,63 +39,61 @@ body {
   margin-left: 5%;
 }
 #ejemplos section .mascotas .card {
-  box-shadow: rgb(0, 0, 0) 20px 20px;
+  box-shadow: rgb(28, 126, 88) 20px 20px;
   transition: 1000ms;
   margin-bottom: 15%;
 }
 #ejemplos section .mascotas .card:hover {
   transform: scale(1.15);
-  box-shadow: rgb(253, 253, 253) 5px 10px;
+  box-shadow: rgb(28, 126, 88) 10px 10px;
 }
 
-.perros {
-  margin-top: 11%;
-  display: flex;
-  flex-wrap: wrap;
+#perros p {
+  font-size: 25px;
+  font-weight: bolder;
+  font-family: "Crimson Pro", serif;
+  text-align: center;
 }
-
-.perros img {
-  width: 25%;
-  height: 15%;
-  margin-left: 5%;
-  margin-bottom: 5%;
-  margin-top: 5%;
-  border-style: groove;
-  border-color: rgb(0, 0, 0);
-  border-width: 5px;
-  box-shadow: rgb(9, 107, 199) 5px 10px;
+#perros .png-uno {
+  width: 50%;
+  margin-left: 40%;
+}
+#perros .png-dos {
+  width: 50%;
+  margin-left: 10%;
+}
+#perros .card {
+  box-shadow: rgb(28, 126, 88) 20px 20px;
   transition: 1000ms;
+  margin-bottom: 15%;
 }
-
-.perros img:hover {
+#perros .card:hover {
   transform: scale(1.15);
-  box-shadow: rgb(0, 0, 0) 5px 10px;
-  border-color: rgb(206, 209, 248);
+  box-shadow: rgb(28, 126, 88) 10px 10px;
 }
 
-.gatos {
-  margin-top: 11%;
-  display: flex;
-  flex-wrap: wrap;
+#gatos p {
+  font-size: 25px;
+  font-weight: bolder;
+  font-family: "Crimson Pro", serif;
+  text-align: center;
 }
-
-.gatos img {
-  width: 25%;
-  height: 15%;
-  margin-left: 5%;
-  margin-bottom: 5%;
-  margin-top: 5%;
-  border-style: solid;
-  border-color: rgb(0, 0, 0);
-  border-width: 5px;
-  box-shadow: rgb(206, 209, 248) 5px 10px;
+#gatos .png-uno {
+  width: 50%;
+  margin-left: 40%;
+}
+#gatos .png-dos {
+  width: 50%;
+  margin-left: 10%;
+}
+#gatos .card {
+  box-shadow: rgb(28, 126, 88) 20px 20px;
   transition: 1000ms;
+  margin-bottom: 15%;
 }
-
-.gatos img:hover {
+#gatos .card:hover {
   transform: scale(1.15);
-  box-shadow: rgb(0, 0, 0) 5px 10px;
-  border-color: rgb(206, 209, 248);
+  box-shadow: rgb(28, 126, 88) 10px 10px;
 }
 
 #adoptados p {
@@ -107,13 +103,13 @@ body {
   text-align: center;
 }
 #adoptados .card {
-  box-shadow: rgb(0, 0, 0) 20px 20px;
+  box-shadow: rgb(28, 126, 88) 20px 20px;
   transition: 1000ms;
   margin-bottom: 15%;
 }
 #adoptados .card:hover {
   transform: scale(1.15);
-  box-shadow: rgb(253, 253, 253) 5px 10px;
+  box-shadow: rgb(28, 126, 88) 10px 10px;
 }
 
 footer {
@@ -137,34 +133,38 @@ footer img {
 }
 
 /* Mobile */
-@media (min-width: 768px) {
+@media (max-width: 767px) {
+  footer {
+    height: 100px;
+  }
   footer li {
     margin-top: 0%;
-    margin-left: 0%;
+    margin-left: 12%;
     display: flex;
     display: inline-block;
     list-style: none;
   }
   footer img {
-    margin-top: 15%;
-    width: 30%;
+    width: 200%;
   }
 }
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   footer {
-    height: 150px;
+    height: 100px;
   }
   footer li {
-    margin-top: 0%;
-    margin-left: 0%;
+    margin-top: 1%;
+    margin-left: 15%;
     margin-right: 0%;
     display: inline-flex;
   }
-  footer img {
-    width: 20%;
+  footer li img {
+    width: 300%;
   }
-  footer li a {
-    font-size: medium;
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  #gatos .png-dos {
+    margin-left: 40%;
   }
 }
 
