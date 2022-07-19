@@ -1,23 +1,29 @@
-.gatos{
-    margin-top: 11%;
-    display: flex;
-    flex-wrap: wrap;
-}
+#gatos{
+    p{
+        font-size: 25px;
+        font-weight: bolder;
+        font-family: 'Crimson Pro', serif;
+        text-align: center;
+    }
+    .png-uno{
+        width: 50%;
+        margin-left: 40%;
+    }
+    .png-dos{
+        width: 50%;
+        margin-left: 10%;
+    }
+    .card{
+        @extend %card;
 
-.gatos img{
-    width: 25%;
-    height: 15%;
-    margin-left: 5%;
-    margin-bottom: 5%;
-    margin-top: 5%;
-    border-style: solid;
-    border-color: rgb(0, 0, 0);
-    border-width: 5px;
-    box-shadow: rgb(206, 209, 248) 5px 10px;
-    transition: 1000ms;
-}
-.gatos img:hover{
-    transform: scale(1.15);
-    box-shadow: rgb(0, 0, 0) 5px 10px;
-    border-color: rgb(206, 209, 248);
+    
+        &:hover{
+            @include card-hover(scale(1.15));
+            box-shadow: $card-hover;
+        }
+        .btn{
+            background-color: $btn-card;
+        }
+    }
+    
 }

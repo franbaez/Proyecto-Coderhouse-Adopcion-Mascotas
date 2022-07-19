@@ -4,7 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio</title>
+    <!-- Meta tags -->
+      <meta name="description" content="En Strays buscamos ser el nexo entre aquellos perros y gatos callejeros que buscan un hogar para ser felices y aquellas personas que estan dispuestas a adoptar una mascota y evitar que sigan estando en las calles sin los cuidados que necesitan.">
+      <meta name="keywords" content="Adopcion, callejeros, perros, gatos, familia, calle, mascotas">
+      <meta property="og:title" content="Strays">
+      <meta property="og:description" content="Si buscas ayudar a alguien que lo necesite como ellos, estas en el lugar correcto, vení, animate!.">
+      <meta property="og:locale" content="es_ES">
+      <meta property="og:locale:alternate" content="en_US">
+      <title>Bienvenido a Strays! Animate a cambiarles la vida.</title>
     <!-- Conexion de Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="icon" href="assets/icono.ico">
@@ -15,73 +22,203 @@
   <header>
 
     <!--Declaro la Estructura de la Barra de Navegación con sus links correspondientes-->
- <div class="container-fluid">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
-            <a class="navbar-brand" href="../../index.html">
+            <a class="navbar-brand" href="/index.html">
                 <img src="/assets/icono-header.svg" alt="" width="200" height="150" class="d-inline-block align-text-center">
                 Strays!
             </a>
           
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
+            <span class="navbar-toggler-icon"></span>
+          </button>
           <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav container">
-              <li class="nav-item me-5 ms-5">
+            <ul class="navbar-nav nav justify-content-center container">
+              <li class="nav-item me-5 ms-2 fs-2 fs-lg-1  fs-2 me-lg-0">
                 <a class="nav-link" href="/index.html">Inicio</a>
               </li>
-              <li class="nav-item me-5 ms-5">
+              <li class="nav-item me-5 ms-2 fs-2 fs-lg-1 me-lg-0">
                 <a class="nav-link active" aria-current="page" href="/pages/perros.html">Perros</a>
               </li>
-              <li class="nav-item me-5 ms-5">
+              <li class="nav-item me-5 ms-2 fs-2 fs-lg-1 me-lg-0">
                 <a class="nav-link" href="/pages/gatos.html">Gatos</a>
               </li>
-              <li class="nav-item me-5 ms-5">
+              <li class="nav-item me-5 ms-2 fs-2 fs-lg-1 me-lg-0">
                 <a class="nav-link" href="/pages/adoptados.html">Adoptados</a>
               </li>
-              <li class="nav-item me-5 ms-5">
+              <li class="nav-item me-5 ms-2 fs-2 fs-lg-1 me-lg-0">
                 <a class="nav-link" href="/pages/contacto.html">Contacto</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
+  <!--Fin Barra de Navegacion-->
+    </div>
 <!--Fin Barra de Navegacion-->
 </div>
 </header>
 <!--Fin del Header-->
-
-<div>
-    <section class="perros">   
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima laudantium voluptatum velit ex non adipisci voluptas eveniet ad provident eum optio odio aperiam quis, dolor et nobis error totam reprehenderit.</p>
-
-        <img src="/assets/perros/adoptado1.jpg" alt="">
-        <img src="/assets/perros/adoptado2.jpg" alt="">
-        <img src="/assets/perros/adoptado3.jpg" alt="">
-        <img src="/assets/perros/adoptado4.jpg" alt="">
-        <img src="/assets//perros/adoptado5.jpg" alt="">
-        <img src="/assets/perros/adoptado6.jpg" alt="">
-        <img src="/assets/perros/adoptado7.jpg" alt="">
-        <img src="/assets//perros/adoptado8.jpg" alt="">
-        <img src="/assets//perros/adoptado9.jpg" alt="">
-
-    </section>
+<div class="container">
+  <div class="row justify-content-center" id="perros">
+    
+    
+      <div class="col-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 mt-5">
+        <!--Imagen-->
+        <img class="png-uno" src="/assets/perros/dog1.png" alt="">
+      </div>
+    
+      <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 mt-5">
+        <!-- Parrafo descriptivo -->
+        <p class="col-sm-12 col-md-12 fs-4 col-lg-12 fs-4 col-xl-12 fst-italic fs-2">
+          Estos son algunos de los perritos que tenemos disponibles para adopcion, tenemos de toda clase y edad, si buscas un amigo fiel para darle amor y divertirte 24/7 con él, estas en la seccion correcta.
+          Te estan esperando!!
+        </p>
+      
+    </div>
+    <div class="col-6 col-sm-6 col-md-6 col-lg-3 mt-5 col-xl-3 mt-5">
+      <img class="png-dos" src="/assets/perros/dog2.png" alt="">
+    </div>
+    <div class="container-fluid">
+      <section>
+        <div class="row  justify-content-center">
+          <div class="container gatos ms-5 mt-5">
+            <div class="row row-cols-3">
+              <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                <div class="card w-75 bg-dark text-white card text-center border border-0">
+                  <img src="/assets/perros/adoptado1.jpg" class="card-img-top" alt="">
+                    <div class="card-body">
+                      <h5 class="card-title fw-bolder">Bigotes (7 años)</h5>
+                        <p class="card-text fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, sit commodi qui libero maiores recusandae.</p>
+                          <a href="/pages/contacto.html" class="btn btn-success">Adoptame!</a>
+                    </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                <div class="card w-75 bg-dark text-white card text-center border border-0">
+                  <img src="/assets/perros/adoptado2.jpg" class="card-img-top" alt="">
+                  <div class="card-body">
+                    <h5 class="card-title fw-bolder">William (9 meses)</h5>
+                     <p class="card-text fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, sit commodi qui libero maiores recusandae.</p>
+                        <a href="/pages/contacto.html" class="btn btn-success">Adoptame!</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                <div class="card w-75 bg-dark text-white card text-center border border-0">
+                  <img src="/assets/perros/adoptado3.jpg" class="card-img-top" alt="">
+                  <div class="card-body">
+                    <h5 class="card-title fw-bolder">Oreo (1 año)</h5>
+                      <p class="card-text fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, sit commodi qui libero maiores recusandae.</p>
+                        <a href="/pages/contacto.html" class="btn btn-success">Adoptame!</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+      <div class="container-fluid">
+        <section>
+          <div class="row  justify-content-center">
+            <div class="container adoptados ms-5 mt-5 mb-5">
+              <div class="row row-cols-3">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                  <div class="card w-75 bg-dark text-white card text-center border border-0">
+                    <img src="/assets/perros/adoptado4.jpg" class="card-img-top" alt="">
+                    <div class="card-body">
+                       <h5 class="card-title fw-bolder">Beans (2 años)</h5>
+                          <p class="card-text fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, sit commodi qui libero maiores recusandae.</p>
+                            <a href="/pages/contacto.html" class="btn btn-success">Adoptame!</a>
+                    </div>
+                  </div>
+                  </div>
+                  <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                    <div class="card w-75 bg-dark text-white card text-center border border-0">
+                      <img src="/assets/perros/adoptado5.jpg" class="card-img-top" alt="">
+                      <div class="card-body">
+                        <h5 class="card-title fw-bolder">Pimienta (3 años)</h5>
+                        <p class="card-text fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, sit commodi qui libero maiores recusandae.</p>
+                        <a href="/pages/contacto.html" class="btn btn-success">Adoptame!</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                    <div class="card w-75 bg-dark text-white card text-center border border-0">
+                      <img src="/assets/perros/adoptado6.jpg" class="card-img-top" alt="">
+                      <div class="card-body">
+                        <h5 class="card-title fw-bolder">Oliver (11 meses)</h5>
+                          <p class="card-text fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, sit commodi qui libero maiores recusandae.</p>
+                            <a href="/pages/contacto.html" class="btn btn-success">Adoptame!</a>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="container-fluid">
+        <section>
+          <div class="row  justify-content-center">
+            <div class="container adoptados ms-5 mt-5 mb-5">
+              <div class="row row-cols-3">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                  <div class="card w-75 bg-dark text-white card text-center border border-0">
+                    <img src="/assets/perros/adoptado7.jpg" class="card-img-top" alt="">
+                    <div class="card-body">
+                       <h5 class="card-title fw-bolder">Beans (2 años)</h5>
+                          <p class="card-text fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, sit commodi qui libero maiores recusandae.</p>
+                            <a href="/pages/contacto.html" class="btn btn-success">Adoptame!</a>
+                    </div>
+                  </div>
+                  </div>
+                  <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                    <div class="card w-75 bg-dark text-white card text-center border border-0">
+                      <img src="/assets/perros/adoptado8.jpg" class="card-img-top" alt="">
+                      <div class="card-body">
+                        <h5 class="card-title fw-bolder">Pimienta (3 años)</h5>
+                        <p class="card-text fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, sit commodi qui libero maiores recusandae.</p>
+                        <a href="/pages/contacto.html" class="btn btn-success">Adoptame!</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                    <div class="card w-75 bg-dark text-white card text-center border border-0">
+                      <img src="/assets/perros/adoptado9.jpg" class="card-img-top" alt="">
+                      <div class="card-body">
+                        <h5 class="card-title fw-bolder">Oliver (11 meses)</h5>
+                          <p class="card-text fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, sit commodi qui libero maiores recusandae.</p>
+                            <a href="/pages/contacto.html" class="btn btn-success">Adoptame!</a>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+  </div>
 </div>
 
  <!--Inicio de footer con las redes sociales-->
  <div class="container-fluid">
-  <footer class=" d-flex  align-items-center bg-dark text-white text-center">
   
+  <footer class=" d-flex  align-items-center bg-dark">
       <ul class="container">
-        <li class="me-5 ms-5"><img src="/assets/whatsapp.svg" alt="Icono de Whatsapp"><a href="#">Whatsapp</a></li>
-        <li class="me-5 ms-5"><img src="/assets/instagram.svg" alt="Icono de Instagram"><a href="#">Instagram</a></li>
-        <li class="me-5 ms-5"><img src="/assets/twitter.svg" alt="Icono de Twitter"><a href="#">Twitter</a></li>
-        <li class="me-5 ms-5"><img src="/assets/youtube.svg" alt="Icono de Youtube"><a href="#">Youtube</a></li>
-        <li class="me-5 ms-5"><img src="/assets/facebook.svg" alt="Icono de Facebook"><a href="#">Facebook</a></li>
+        <li><a href="https://www.whatsapp.com/?lang=es" target="_blank"><img src="/assets/whatsapp.svg" alt="Icono de Whatsapp"></a></li>
+        <li><a href="https://www.instagram.com/" target="_blank"><img src="/assets/instagram.svg" alt="Icono de Instagram"></a></li>
+        <li><a href="https://www.twitter.com/" target="_blank"><img src="/assets/twitter.svg" alt="Icono de Twitter"></a></li>
+        <li><a href="https://www.youtube.com/" target="_blank"><img src="/assets/youtube.svg" alt="Icono de Youtube"></a></li>
+        <li><a href="https://www.facebook.com/" target="_blank"><img src="/assets/facebook.svg" alt="Icono de Facebook"></a></li>
       </ul>
     
   </footer>
+  <div>
+
+  </div>
   </div>
 <!--Fin del footer-->
 <!-- Script de Bootstrap -->

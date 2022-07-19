@@ -6,6 +6,9 @@
   
   
 @import './base/background';
+@import './base/variables';
+@import './base/extends';
+@import './base/mixins';
 /* Components */
 @import './component/index';
 @import './component/perros';
