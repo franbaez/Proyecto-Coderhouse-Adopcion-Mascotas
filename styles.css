@@ -10,6 +10,12 @@ body {
   width: auto;
 }
 
+#adoptados .card, #gatos .card, #perros .card, #ejemplos section .mascotas .card {
+  box-shadow: rgb(28, 126, 88) 20px 20px;
+  transition: 1000ms;
+  margin-bottom: 15%;
+}
+
 /* Components */
 #bienvenida h1 {
   text-align: center;
@@ -18,7 +24,7 @@ body {
 #bienvenida img {
   margin-top: 6%;
   width: 100%;
-  box-shadow: rgb(28, 126, 88) 10px 15px;
+  box-shadow: rgb(28, 126, 88) 20px 20px;
 }
 #bienvenida p {
   font-weight: bolder;
@@ -38,14 +44,12 @@ body {
   margin-top: 5%;
   margin-left: 5%;
 }
-#ejemplos section .mascotas .card {
-  box-shadow: rgb(28, 126, 88) 20px 20px;
-  transition: 1000ms;
-  margin-bottom: 15%;
-}
 #ejemplos section .mascotas .card:hover {
   transform: scale(1.15);
   box-shadow: rgb(28, 126, 88) 10px 10px;
+}
+#ejemplos section .mascotas .card .btn {
+  background-color: #198754;
 }
 
 #perros p {
@@ -62,14 +66,12 @@ body {
   width: 50%;
   margin-left: 10%;
 }
-#perros .card {
-  box-shadow: rgb(28, 126, 88) 20px 20px;
-  transition: 1000ms;
-  margin-bottom: 15%;
-}
 #perros .card:hover {
   transform: scale(1.15);
   box-shadow: rgb(28, 126, 88) 10px 10px;
+}
+#perros .card .btn {
+  background-color: #198754;
 }
 
 #gatos p {
@@ -86,14 +88,12 @@ body {
   width: 50%;
   margin-left: 10%;
 }
-#gatos .card {
-  box-shadow: rgb(28, 126, 88) 20px 20px;
-  transition: 1000ms;
-  margin-bottom: 15%;
-}
 #gatos .card:hover {
   transform: scale(1.15);
   box-shadow: rgb(28, 126, 88) 10px 10px;
+}
+#gatos .card .btn {
+  background-color: #198754;
 }
 
 #adoptados p {
@@ -102,14 +102,12 @@ body {
   font-family: "Crimson Pro", serif;
   text-align: center;
 }
-#adoptados .card {
-  box-shadow: rgb(28, 126, 88) 20px 20px;
-  transition: 1000ms;
-  margin-bottom: 15%;
-}
 #adoptados .card:hover {
   transform: scale(1.15);
   box-shadow: rgb(28, 126, 88) 10px 10px;
+}
+#adoptados .card .btn {
+  background-color: #198754;
 }
 
 footer {

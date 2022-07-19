@@ -9,13 +9,15 @@
     }
     
     .card{
-        box-shadow: rgb(28, 126, 88) 20px 20px;
-        transition: 1000ms;
-        margin-bottom: 15%;
+        @extend %card;
+
     
         &:hover{
-            transform: scale(1.15);
-            box-shadow: rgb(28, 126, 88) 10px 10px;
+            @include card-hover(scale(1.15));
+            box-shadow: $card-hover;
+        }
+        .btn{
+            background-color: $btn-card;
         }
     }
 }
