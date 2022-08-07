@@ -16,11 +16,6 @@
     .card{
         @extend %card;
 
-    
-        &:hover{
-            @include card-hover(scale(1.15));
-            box-shadow: $card-hover;
-        }
         .btn{
             background-color: $btn-card;
         }
