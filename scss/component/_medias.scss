@@ -17,6 +17,13 @@
 
 }
 @media (min-width: 768px){
+    
+    .card{
+        &:hover{
+            @include card-hover(scale(1.15));
+            box-shadow: $card-hover;
+        }
+    }
     footer{
         height: 100px;
         

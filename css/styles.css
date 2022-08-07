@@ -47,10 +47,6 @@ body {
   margin-top: 5%;
   margin-left: 5%;
 }
-#ejemplos section .mascotas .card:hover {
-  transform: scale(1.15);
-  box-shadow: rgb(28, 126, 88) 10px 10px;
-}
 #ejemplos section .mascotas .card .btn {
   background-color: #198754;
 }
@@ -68,10 +64,6 @@ body {
 #perros .png-dos {
   width: 50%;
   margin-left: 10%;
-}
-#perros .card:hover {
-  transform: scale(1.15);
-  box-shadow: rgb(28, 126, 88) 10px 10px;
 }
 #perros .card .btn {
   background-color: #198754;
@@ -91,10 +83,6 @@ body {
   width: 50%;
   margin-left: 10%;
 }
-#gatos .card:hover {
-  transform: scale(1.15);
-  box-shadow: rgb(28, 126, 88) 10px 10px;
-}
 #gatos .card .btn {
   background-color: #198754;
 }
@@ -104,10 +92,6 @@ body {
   font-weight: bolder;
   font-family: "Crimson Pro", serif;
   text-align: center;
-}
-#adoptados .card:hover {
-  transform: scale(1.15);
-  box-shadow: rgb(28, 126, 88) 10px 10px;
 }
 #adoptados .card .btn {
   background-color: #198754;
@@ -150,6 +134,10 @@ footer img {
   }
 }
 @media (min-width: 768px) {
+  .card:hover {
+    transform: scale(1.15);
+    box-shadow: rgb(28, 126, 88) 10px 10px;
+  }
   footer {
     height: 100px;
   }
